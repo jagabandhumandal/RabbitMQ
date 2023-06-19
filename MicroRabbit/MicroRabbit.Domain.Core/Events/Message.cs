@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MicroRabbit.Domain.Core.Events
 {
-    internal abstract class Message : IRequest<bool>
+    public abstract class Message : IRequest<bool>
     {
         public string MessageType { get; protected set; }
 

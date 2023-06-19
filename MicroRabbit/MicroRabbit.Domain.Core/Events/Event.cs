@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MicroRabbit.Domain.Core.Events
 {
-    internal abstract class Event
+    public abstract class Event
     {
         public string MessageType { get; protected set; }
 

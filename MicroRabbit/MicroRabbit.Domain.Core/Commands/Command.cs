@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MicroRabbit.Domain.Core.Commands
 {
-    internal abstract class Command : Message
+    public abstract class Command : Message
     {
         public DateTime Timestamp { get; protected set; }
 
