@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace MicroRabbit.Banking.Api.Controllers
+namespace MicroRabbit.Transfer.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]

@@ -1,4 +1,4 @@
-namespace MicroRabbit.Banking.Api
+namespace MicroRabbit.Transfer.Api
 {
     public class WeatherForecast
     {
